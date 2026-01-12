@@ -35,9 +35,9 @@
         HomeWifi = {
           connection = {
             id = "HomeWifi";
-            interface-name = "wlp1s0"; # Update for your interface
+            interface-name = "wlp1s0";  # Update for your interface
             type = "wifi";
-            uuid = "00000000-0000-0000-0000-000000000001"; # Generate with: uuidgen
+            uuid = "00000000-0000-0000-0000-000000000001";  # Generate with: uuidgen
           };
           ipv4.method = "auto";
           ipv6 = {
@@ -65,17 +65,17 @@
             interface-name = "wg0";
             permissions = "user:user:;";
             type = "wireguard";
-            uuid = "00000000-0000-0000-0000-000000000002"; # Generate with: uuidgen
+            uuid = "00000000-0000-0000-0000-000000000002";  # Generate with: uuidgen
           };
           ipv4 = {
-            address1 = "10.0.0.2/32"; # Your VPN client IP
+            address1 = "10.0.0.2/32";  # Your VPN client IP
             dns = "10.0.0.1;";
             dns-search = "~;";
             method = "manual";
           };
           ipv6 = {
             addr-gen-mode = "default";
-            method = "disabled"; # Or configure IPv6 if needed
+            method = "disabled";  # Or configure IPv6 if needed
           };
           proxy = {};
           wireguard = {

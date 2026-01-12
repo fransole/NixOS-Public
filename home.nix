@@ -142,8 +142,8 @@ with lib; {
         # Shell history
         ".zsh_history"
 
-        # Claude Code global config (onboarding, OAuth account, project settings)
-        ".claude.json"
+        # Claude Code credentials (persist explicitly to survive reboots)
+        ".claude/.credentials.json"
       ];
     };
 
