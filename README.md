@@ -71,7 +71,7 @@ nixos/
    - Partition and format disks using Disko
    - Generate hardware configuration
    - Copy sops-nix keys from USB
-   - Install NixOS with the `nixos-framework` flake configuration
+   - Install NixOS with the `gearhead` flake configuration
    - Create blank Btrfs snapshot for impermanence
    - Prompt for reboot
 
